@@ -1,0 +1,33 @@
+{
+  "name": "testit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-trumid/testit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david-trumid/testit/issues"
+  },
+  "homepage": "https://github.com/david-trumid/testit#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "react": "^16.9.0",
+    "typescript": "^3.6.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0"
+  },
+  "dependencies": {
+    "@storybook/addons": "^5.1.11",
+    "@storybook/react": "^5.1.11"
+  }
+}
